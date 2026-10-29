@@ -1,0 +1,452 @@
+[
+  {
+    "id": "e001",
+    "subject": "PO 4471 - Linear shafts",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.98,
+    "reason": "Customer provides a PO, specifies quantity and desired delivery date, and requests shipment.",
+    "hard": false
+  },
+  {
+    "id": "e002",
+    "subject": "Re: Quote Q-20931 approved",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.98,
+    "reason": "Customer approved the quote and requested shipment with a PO number.",
+    "hard": true
+  },
+  {
+    "id": "e003",
+    "subject": "Order - bolts",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.98,
+    "reason": "Customer requests shipment of a specific item with shipping details and payment terms.",
+    "hard": false
+  },
+  {
+    "id": "e004",
+    "subject": "reorder same as last month",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "Customer explicitly requests a reorder of a previous order (PO 77120) with the same quantities and shipping address.",
+    "hard": true
+  },
+  {
+    "id": "e005",
+    "subject": "URGENT order - bearings",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.98,
+    "reason": "Customer explicitly requests shipment of bearings with a specific quantity and timeframe, referencing an account.",
+    "hard": false
+  },
+  {
+    "id": "e006",
+    "subject": "New PO attached",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "The email contains a PO, delivery request, and asks for an order acknowledgement, indicating a desire to receive goods.",
+    "hard": false
+  },
+  {
+    "id": "e007",
+    "subject": "Order for CNC project",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.98,
+    "reason": "Customer provides a specific order with quantities and references a PO.",
+    "hard": false
+  },
+  {
+    "id": "e008",
+    "subject": "Quote Q-21044 - go ahead",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "Customer confirms the quote and requests immediate shipment with a PO to follow.",
+    "hard": true
+  },
+  {
+    "id": "e009",
+    "subject": "Purchase order",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "Customer explicitly requests to buy a specific item and asks for shipment confirmation.",
+    "hard": false
+  },
+  {
+    "id": "e010",
+    "subject": "Fwd: PO from procurement",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "The email contains a PO and requests confirmation of receipt and ship date, indicating a desire to receive goods.",
+    "hard": false
+  },
+  {
+    "id": "e011",
+    "subject": "Quote request - linear shafts",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price and lead time without any commitment to purchase.",
+    "hard": false
+  },
+  {
+    "id": "e012",
+    "subject": "Price check",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "Customer is requesting a price and asking about a potential volume discount without a commitment to purchase.",
+    "hard": false
+  },
+  {
+    "id": "e013",
+    "subject": "RFQ attached",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a quotation (RFQ) and has a deadline.",
+    "hard": false
+  },
+  {
+    "id": "e014",
+    "subject": "Lead time and price BRG-6205",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price and lead time without indicating an intention to purchase.",
+    "hard": false
+  },
+  {
+    "id": "e015",
+    "subject": "Pricing for ALP-20-10",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "Customer is requesting a price quote and has not yet committed to an order.",
+    "hard": true
+  },
+  {
+    "id": "e016",
+    "subject": "Custom length question",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price and lead time for a custom order without a firm commitment to purchase.",
+    "hard": false
+  },
+  {
+    "id": "e017",
+    "subject": "Quote for annual volume",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price and lead time for a potential large order, without a commitment to buy.",
+    "hard": false
+  },
+  {
+    "id": "e018",
+    "subject": "need quote asap",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "Customer is requesting a price and lead time for a product without a commitment to purchase.",
+    "hard": false
+  },
+  {
+    "id": "e019",
+    "subject": "Alternative to discontinued part",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price quote for a specific part and quantity.",
+    "hard": true
+  },
+  {
+    "id": "e020",
+    "subject": "Budgetary quote",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "Customer is requesting a price estimate for future potential purchase without any commitment to buy.",
+    "hard": false
+  },
+  {
+    "id": "e021",
+    "subject": "Return request PO 4102",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "Customer explicitly requests an RMA and return label due to receiving incorrect parts.",
+    "hard": false
+  },
+  {
+    "id": "e022",
+    "subject": "Damaged in shipping",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.98,
+    "reason": "Customer explicitly requests a return and replacement of damaged goods.",
+    "hard": false
+  },
+  {
+    "id": "e023",
+    "subject": "Return - ordered too many",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "The customer explicitly requests a return and a refund for excess items.",
+    "hard": false
+  },
+  {
+    "id": "e024",
+    "subject": "Defective bearings - refund",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.98,
+    "reason": "Customer explicitly states they want a refund and will ship the defective goods back.",
+    "hard": false
+  },
+  {
+    "id": "e025",
+    "subject": "Bearing is noisy - want to return",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "The customer explicitly states they want to send the bearings back for a credit.",
+    "hard": true
+  },
+  {
+    "id": "e026",
+    "subject": "RMA number needed",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "The customer explicitly requests an RMA number and states the reason for return is due to a cancelled project.",
+    "hard": false
+  },
+  {
+    "id": "e027",
+    "subject": "wrong item received",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "Customer explicitly states they want to send back an incorrect item and receive a replacement.",
+    "hard": false
+  },
+  {
+    "id": "e028",
+    "subject": "Cancel and return order",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "Customer explicitly requests cancellation, return, and advises on the return process.",
+    "hard": true
+  },
+  {
+    "id": "e029",
+    "subject": "Refund for late delivery",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "The customer explicitly states they are returning the parts and requesting a refund.",
+    "hard": false
+  },
+  {
+    "id": "e030",
+    "subject": "Parts do not fit",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "The customer explicitly requests a return and a credit to their account, indicating a problem with the received goods.",
+    "hard": false
+  },
+  {
+    "id": "e031",
+    "subject": "Tolerance question LSH-12",
+    "true": "support",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is asking for technical specifications to inform their design, indicating they are considering a purchase.",
+    "hard": true
+  },
+  {
+    "id": "e032",
+    "subject": "Order status PO 4471",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "Customer is requesting an update on an existing order and tracking information.",
+    "hard": true
+  },
+  {
+    "id": "e033",
+    "subject": "CAD download not working",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "Customer is seeking technical assistance with accessing a file on the website.",
+    "hard": false
+  },
+  {
+    "id": "e034",
+    "subject": "Cannot log in",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "Customer is experiencing an account access issue and requesting assistance.",
+    "hard": false
+  },
+  {
+    "id": "e035",
+    "subject": "Compatibility question",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "Customer is asking technical questions about product compatibility and usage.",
+    "hard": false
+  },
+  {
+    "id": "e036",
+    "subject": "Tracking number?",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "Customer is requesting order status and tracking information.",
+    "hard": false
+  },
+  {
+    "id": "e037",
+    "subject": "Bearing noise after install",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "Customer is reporting a technical issue (noise) and seeking recommendations, not placing an order or requesting a return.",
+    "hard": true
+  },
+  {
+    "id": "e038",
+    "subject": "Configurator error",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "The customer is reporting a technical issue with the configurator and needs assistance.",
+    "hard": false
+  },
+  {
+    "id": "e039",
+    "subject": "Invoice copy needed",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "Customer is requesting a document (invoice) and account administration assistance.",
+    "hard": false
+  },
+  {
+    "id": "e040",
+    "subject": "Shaft deflection help",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "The customer is seeking technical information and guidance on shaft deflection, not placing an order or requesting a return.",
+    "hard": false
+  },
+  {
+    "id": "e041",
+    "subject": "Boost your website traffic",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This is a marketing email and not related to our products or services.",
+    "hard": false
+  },
+  {
+    "id": "e042",
+    "subject": "Automatic reply: Out of office",
+    "true": "other",
+    "pred": "other",
+    "confidence": 1.0,
+    "reason": "This is an automated out-of-office reply and not a customer communication.",
+    "hard": false
+  },
+  {
+    "id": "e043",
+    "subject": "Webinar invitation: Factory automation 2027",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This is a marketing email promoting a webinar, not a customer inquiry related to our products or services.",
+    "hard": false
+  },
+  {
+    "id": "e044",
+    "subject": "Job application - Mechanical Engineer",
+    "true": "other",
+    "pred": "other",
+    "confidence": 1.0,
+    "reason": "This is a job application and not related to our products or services.",
+    "hard": false
+  },
+  {
+    "id": "e045",
+    "subject": "Your account has been suspended",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This is a system notification, not a customer request related to our products or services.",
+    "hard": true
+  },
+  {
+    "id": "e046",
+    "subject": "Cheap bolts direct from factory",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This is a marketing email promoting the company's products, not a customer inquiry.",
+    "hard": true
+  },
+  {
+    "id": "e047",
+    "subject": "Team meeting moved to 3pm",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "Internal announcement, not related to customer business.",
+    "hard": false
+  },
+  {
+    "id": "e048",
+    "subject": "Undeliverable: message not delivered",
+    "true": "other",
+    "pred": "other",
+    "confidence": 1.0,
+    "reason": "This is an automated notification from the mail server, not a customer communication.",
+    "hard": false
+  },
+  {
+    "id": "e049",
+    "subject": "How did we do? Take our survey",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This is a marketing email promoting a survey, not a customer request for goods or services.",
+    "hard": false
+  },
+  {
+    "id": "e050",
+    "subject": "Lunch Friday?",
+    "true": "other",
+    "pred": "other",
+    "confidence": 1.0,
+    "reason": "This is a social invitation, not a business communication.",
+    "hard": false
+  }
+]

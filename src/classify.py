@@ -26,7 +26,9 @@ Classify each inbound customer email into exactly one category:
 - return: The customer wants to send goods back, asks for an RMA, refund or credit,
   or reports wrong, damaged or defective items and wants them replaced or returned.
 - support: The customer needs help or information: technical questions, order status
-  or tracking, website or account problems, invoice copies, troubleshooting.
+  or tracking, website or account problems, troubleshooting, and billing or account
+  administration (invoice copies, questions or disputes about an invoice amount,
+  address or tax form updates, account changes).
 - other: Spam, marketing, job applications, auto-replies, phishing, internal or
   unrelated messages.
 
@@ -35,6 +37,12 @@ Rules for ambiguous cases:
 - Asking for a price and saying they MIGHT order later is a quote.
 - A problem report where the customer wants to return or get a refund is a return.
   A problem report where the customer only wants advice is support.
+- Negotiating price or quantity BEFORE committing to buy is a quote.
+- Only choose return if the customer explicitly mentions sending goods back, a refund,
+  a credit, or a replacement. Do not assume intent that is not written in the email.
+- Customer service and administrative requests (billing, accounts, addresses,
+  documents) belong to support, not other. Use other only for messages that are not
+  from a customer about doing business with us.
 
 Respond with a JSON object with these fields:
 - label: one of order, quote, return, support, other
