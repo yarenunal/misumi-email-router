@@ -1,0 +1,812 @@
+[
+  {
+    "id": "e001",
+    "subject": "PO 4471 - Linear shafts",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.98,
+    "margin": 21.993209838867188,
+    "rival": "other"
+  },
+  {
+    "id": "e002",
+    "subject": "Re: Quote Q-20931 approved",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.98,
+    "margin": 22.60068130493164,
+    "rival": "other"
+  },
+  {
+    "id": "e003",
+    "subject": "Order - bolts",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.98,
+    "margin": 22.948165893554688,
+    "rival": "other"
+  },
+  {
+    "id": "e004",
+    "subject": "reorder same as last month",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 21.086536407470703,
+    "rival": "other"
+  },
+  {
+    "id": "e005",
+    "subject": "URGENT order - bearings",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.98,
+    "margin": 22.9141845703125,
+    "rival": "other"
+  },
+  {
+    "id": "e006",
+    "subject": "New PO attached",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 16.782962799072266,
+    "rival": "other"
+  },
+  {
+    "id": "e007",
+    "subject": "Order for CNC project",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.98,
+    "margin": 20.084720611572266,
+    "rival": "other"
+  },
+  {
+    "id": "e008",
+    "subject": "Quote Q-21044 - go ahead",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 22.31633758544922,
+    "rival": "other"
+  },
+  {
+    "id": "e009",
+    "subject": "Purchase order",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 19.917877197265625,
+    "rival": "other"
+  },
+  {
+    "id": "e010",
+    "subject": "Fwd: PO from procurement",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 20.220863342285156,
+    "rival": "other"
+  },
+  {
+    "id": "e011",
+    "subject": "Quote request - linear shafts",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 34.578948974609375,
+    "rival": null
+  },
+  {
+    "id": "e012",
+    "subject": "Price check",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 34.148250579833984,
+    "rival": null
+  },
+  {
+    "id": "e013",
+    "subject": "RFQ attached",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 33.95429992675781,
+    "rival": null
+  },
+  {
+    "id": "e014",
+    "subject": "Lead time and price BRG-6205",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 35.884239196777344,
+    "rival": null
+  },
+  {
+    "id": "e015",
+    "subject": "Pricing for ALP-20-10",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 32.130271911621094,
+    "rival": "other"
+  },
+  {
+    "id": "e016",
+    "subject": "Custom length question",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 30.266414642333984,
+    "rival": null
+  },
+  {
+    "id": "e017",
+    "subject": "Quote for annual volume",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 33.287227630615234,
+    "rival": null
+  },
+  {
+    "id": "e018",
+    "subject": "need quote asap",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 36.331565856933594,
+    "rival": null
+  },
+  {
+    "id": "e019",
+    "subject": "Alternative to discontinued part",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 33.3929328918457,
+    "rival": null
+  },
+  {
+    "id": "e020",
+    "subject": "Budgetary quote",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 30.547386169433594,
+    "rival": "other"
+  },
+  {
+    "id": "e021",
+    "subject": "Return request PO 4102",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 24.549297332763672,
+    "rival": "support"
+  },
+  {
+    "id": "e022",
+    "subject": "Damaged in shipping",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.98,
+    "margin": 23.689037322998047,
+    "rival": "support"
+  },
+  {
+    "id": "e023",
+    "subject": "Return - ordered too many",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 23.21207046508789,
+    "rival": "order"
+  },
+  {
+    "id": "e024",
+    "subject": "Defective bearings - refund",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.98,
+    "margin": 24.9283447265625,
+    "rival": "support"
+  },
+  {
+    "id": "e025",
+    "subject": "Bearing is noisy - want to return",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 24.438095092773438,
+    "rival": "support"
+  },
+  {
+    "id": "e026",
+    "subject": "RMA number needed",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 18.66301727294922,
+    "rival": "support"
+  },
+  {
+    "id": "e027",
+    "subject": "wrong item received",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 27.099334716796875,
+    "rival": "support"
+  },
+  {
+    "id": "e028",
+    "subject": "Cancel and return order",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 21.864742279052734,
+    "rival": "order"
+  },
+  {
+    "id": "e029",
+    "subject": "Refund for late delivery",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 20.52069854736328,
+    "rival": "other"
+  },
+  {
+    "id": "e030",
+    "subject": "Parts do not fit",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 20.799339294433594,
+    "rival": "support"
+  },
+  {
+    "id": "e031",
+    "subject": "Tolerance question LSH-12",
+    "true": "support",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 6.629364275257103,
+    "rival": "support"
+  },
+  {
+    "id": "e032",
+    "subject": "Order status PO 4471",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 11.144462466136247,
+    "rival": "order"
+  },
+  {
+    "id": "e033",
+    "subject": "CAD download not working",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 22.986591339111328,
+    "rival": "other"
+  },
+  {
+    "id": "e034",
+    "subject": "Cannot log in",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 24.68670654296875,
+    "rival": "other"
+  },
+  {
+    "id": "e035",
+    "subject": "Compatibility question",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 23.6800537109375,
+    "rival": "quote"
+  },
+  {
+    "id": "e036",
+    "subject": "Tracking number?",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 22.170387268066406,
+    "rival": "order"
+  },
+  {
+    "id": "e037",
+    "subject": "Bearing noise after install",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 27.751144409179688,
+    "rival": "return"
+  },
+  {
+    "id": "e038",
+    "subject": "Configurator error",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 22.044597625732422,
+    "rival": "other"
+  },
+  {
+    "id": "e039",
+    "subject": "Invoice copy needed",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 24.022972106933594,
+    "rival": "other"
+  },
+  {
+    "id": "e040",
+    "subject": "Shaft deflection help",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 26.751197814941406,
+    "rival": "other"
+  },
+  {
+    "id": "e041",
+    "subject": "Boost your website traffic",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 32.383304595947266,
+    "rival": "order"
+  },
+  {
+    "id": "e042",
+    "subject": "Automatic reply: Out of office",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 1.0,
+    "margin": 23.615753173828125,
+    "rival": "support"
+  },
+  {
+    "id": "e043",
+    "subject": "Webinar invitation: Factory automation 2027",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 29.750335693359375,
+    "rival": "order"
+  },
+  {
+    "id": "e044",
+    "subject": "Job application - Mechanical Engineer",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 1.0,
+    "margin": 25.89621353149414,
+    "rival": "order"
+  },
+  {
+    "id": "e045",
+    "subject": "Your account has been suspended",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 17.865097045898438,
+    "rival": "support"
+  },
+  {
+    "id": "e046",
+    "subject": "Cheap bolts direct from factory",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 26.41162109375,
+    "rival": "order"
+  },
+  {
+    "id": "e047",
+    "subject": "Team meeting moved to 3pm",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 20.78707504272461,
+    "rival": "support"
+  },
+  {
+    "id": "e048",
+    "subject": "Undeliverable: message not delivered",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 1.0,
+    "margin": 25.704994201660156,
+    "rival": "support"
+  },
+  {
+    "id": "e049",
+    "subject": "How did we do? Take our survey",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 22.38459014892578,
+    "rival": "support"
+  },
+  {
+    "id": "e050",
+    "subject": "Lunch Friday?",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 1.0,
+    "margin": 28.22323989868164,
+    "rival": "order"
+  },
+  {
+    "id": "t001",
+    "subject": "RE: RE: Fwd: shaft",
+    "true": "order",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 25.3837890625,
+    "rival": "other"
+  },
+  {
+    "id": "t002",
+    "subject": "(no subject)",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 18.672740936279297,
+    "rival": "other"
+  },
+  {
+    "id": "t003",
+    "subject": "Bestellung",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 20.42353057861328,
+    "rival": "other"
+  },
+  {
+    "id": "t004",
+    "subject": "Update on PO 5530",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 21.712295532226562,
+    "rival": "other"
+  },
+  {
+    "id": "t005",
+    "subject": "Please add to my order",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.98,
+    "margin": 20.23128890991211,
+    "rival": "other"
+  },
+  {
+    "id": "t006",
+    "subject": "Sample purchase",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 20.033714294433594,
+    "rival": "other"
+  },
+  {
+    "id": "t007",
+    "subject": "Siparis",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 20.735580444335938,
+    "rival": "other"
+  },
+  {
+    "id": "t008",
+    "subject": "Re: Quote Q-21201",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 15.353729009628267,
+    "rival": "other"
+  },
+  {
+    "id": "t009",
+    "subject": "Pricing?",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 36.127506256103516,
+    "rival": "other"
+  },
+  {
+    "id": "t010",
+    "subject": "Re: availability",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 38.171627044677734,
+    "rival": null
+  },
+  {
+    "id": "t011",
+    "subject": "Anfrage",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 34.70986557006836,
+    "rival": null
+  },
+  {
+    "id": "t012",
+    "subject": "Competitor pricing",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 27.67041778564453,
+    "rival": "other"
+  },
+  {
+    "id": "t013",
+    "subject": "Fwd: customer drawing",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 33.76212692260742,
+    "rival": "other"
+  },
+  {
+    "id": "t014",
+    "subject": "Shipping to Toronto",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 33.284576416015625,
+    "rival": null
+  },
+  {
+    "id": "t015",
+    "subject": "Re: Quote Q-20931 - question",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 28.695281982421875,
+    "rival": "other"
+  },
+  {
+    "id": "t016",
+    "subject": "Fiyat teklifi",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 31.981578826904297,
+    "rival": null
+  },
+  {
+    "id": "t017",
+    "subject": "Problem with shipment",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 21.804893493652344,
+    "rival": "support"
+  },
+  {
+    "id": "t018",
+    "subject": "Re: Re: RMA-3302",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 21.17206573486328,
+    "rival": "support"
+  },
+  {
+    "id": "t019",
+    "subject": "Not what we expected",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 26.28411102294922,
+    "rival": "support"
+  },
+  {
+    "id": "t020",
+    "subject": "Credit memo for damaged goods",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 25.26103973388672,
+    "rival": "support"
+  },
+  {
+    "id": "t021",
+    "subject": "Duplicate order",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 25.129638671875,
+    "rival": "order"
+  },
+  {
+    "id": "t022",
+    "subject": "Reklamation",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 21.78216552734375,
+    "rival": "support"
+  },
+  {
+    "id": "t023",
+    "subject": "Wrong part again",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 26.664222717285156,
+    "rival": "support"
+  },
+  {
+    "id": "t024",
+    "subject": "Refused delivery",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 24.192352294921875,
+    "rival": "order"
+  },
+  {
+    "id": "t025",
+    "subject": "Coating recommendation",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 20.721328735351562,
+    "rival": "other"
+  },
+  {
+    "id": "t026",
+    "subject": "Status?",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 12.685561895365709,
+    "rival": "order"
+  },
+  {
+    "id": "t027",
+    "subject": "STEP file not found",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 22.68505859375,
+    "rival": "other"
+  },
+  {
+    "id": "t028",
+    "subject": "Update billing address",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 26.146453857421875,
+    "rival": "other"
+  },
+  {
+    "id": "t029",
+    "subject": "Datasheet",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 17.727638244628906,
+    "rival": "quote"
+  },
+  {
+    "id": "t030",
+    "subject": "Coupling slipping",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 25.385887145996094,
+    "rival": "other"
+  },
+  {
+    "id": "t031",
+    "subject": "Teknik soru",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 16.46100604534149,
+    "rival": "other"
+  },
+  {
+    "id": "t032",
+    "subject": "Re: invoice 30410",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 19.767532348632812,
+    "rival": "return"
+  },
+  {
+    "id": "t033",
+    "subject": "Fwd: FW: Fwd: funny",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 31.83448028564453,
+    "rival": "order"
+  },
+  {
+    "id": "t034",
+    "subject": "Partnership opportunity",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.9,
+    "margin": 25.92717742919922,
+    "rival": "support"
+  },
+  {
+    "id": "t035",
+    "subject": "Invoice attached - URGENT",
+    "true": "other",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 3.244399983435869,
+    "rival": "other"
+  },
+  {
+    "id": "t036",
+    "subject": "Congrats on the new facility",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 28.647045135498047,
+    "rival": "order"
+  },
+  {
+    "id": "t037",
+    "subject": "Delivery Status Notification (Delay)",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 18.47537612915039,
+    "rival": "support"
+  },
+  {
+    "id": "t038",
+    "subject": "Unsubscribe",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 29.73919677734375,
+    "rival": "order"
+  },
+  {
+    "id": "t039",
+    "subject": "Interview request",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 27.222679138183594,
+    "rival": "order"
+  },
+  {
+    "id": "t040",
+    "subject": "Summer internship application",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 28.24980926513672,
+    "rival": "order"
+  }
+]
