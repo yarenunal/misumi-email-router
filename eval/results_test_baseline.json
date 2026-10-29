@@ -1,0 +1,362 @@
+[
+  {
+    "id": "t001",
+    "subject": "RE: RE: Fwd: shaft",
+    "true": "order",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is responding to a quote and requesting a price change.",
+    "hard": true
+  },
+  {
+    "id": "t002",
+    "subject": "(no subject)",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "Customer requests shipment of specific items and provides an account number.",
+    "hard": true
+  },
+  {
+    "id": "t003",
+    "subject": "Bestellung",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "The customer provides a specific order number and requests delivery of goods.",
+    "hard": true
+  },
+  {
+    "id": "t004",
+    "subject": "Update on PO 5530",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a change to an existing PO and wants to ship the increased quantity.",
+    "hard": true
+  },
+  {
+    "id": "t005",
+    "subject": "Please add to my order",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.98,
+    "reason": "Customer is requesting an addition to an existing order with a PO number and asking to ship.",
+    "hard": false
+  },
+  {
+    "id": "t006",
+    "subject": "Sample purchase",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "Customer requests shipment of samples and provides payment details.",
+    "hard": false
+  },
+  {
+    "id": "t007",
+    "subject": "Siparis",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a specific order quantity and asking for shipment to a specific location.",
+    "hard": true
+  },
+  {
+    "id": "t008",
+    "subject": "Re: Quote Q-21201",
+    "true": "order",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "The email confirms approval and includes a PO, indicating a commitment to purchase and shipment.",
+    "hard": true
+  },
+  {
+    "id": "t009",
+    "subject": "Pricing?",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is asking for a price and hasn't indicated any intent to purchase.",
+    "hard": false
+  },
+  {
+    "id": "t010",
+    "subject": "Re: availability",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price and lead time to evaluate a potential purchase.",
+    "hard": true
+  },
+  {
+    "id": "t011",
+    "subject": "Anfrage",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price and lead time for a specific quantity, without a commitment to purchase.",
+    "hard": true
+  },
+  {
+    "id": "t012",
+    "subject": "Competitor pricing",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price and lead time to determine if they will purchase.",
+    "hard": false
+  },
+  {
+    "id": "t013",
+    "subject": "Fwd: customer drawing",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price and lead time without a commitment to purchase.",
+    "hard": true
+  },
+  {
+    "id": "t014",
+    "subject": "Shipping to Toronto",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price and lead time for a potential order, without a firm commitment.",
+    "hard": true
+  },
+  {
+    "id": "t015",
+    "subject": "Re: Quote Q-20931 - question",
+    "true": "quote",
+    "pred": "order",
+    "confidence": 0.95,
+    "reason": "The customer is proposing a change to the order (doubling quantity) and requesting a discount, indicating intent to purchase.",
+    "hard": true
+  },
+  {
+    "id": "t016",
+    "subject": "Fiyat teklifi",
+    "true": "quote",
+    "pred": "quote",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a price and lead time for a product, without indicating an intention to purchase.",
+    "hard": false
+  },
+  {
+    "id": "t017",
+    "subject": "Problem with shipment",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "The customer reports incorrect dimensions, requests replacement, and indicates a return shipment.",
+    "hard": true
+  },
+  {
+    "id": "t018",
+    "subject": "Re: Re: RMA-3302",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "Customer is requesting a credit upon arrival of returned goods, indicating a return issue.",
+    "hard": true
+  },
+  {
+    "id": "t019",
+    "subject": "Not what we expected",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "Customer explicitly requests a refund and wants to return the goods.",
+    "hard": false
+  },
+  {
+    "id": "t020",
+    "subject": "Credit memo for damaged goods",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "Customer reports damaged goods and requests a credit/refund.",
+    "hard": false
+  },
+  {
+    "id": "t021",
+    "subject": "Duplicate order",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "The customer is requesting a return of goods due to a duplicate shipment and wants a refund/credit.",
+    "hard": false
+  },
+  {
+    "id": "t022",
+    "subject": "Reklamation",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "The customer explicitly states they want to return defective goods and receive a credit.",
+    "hard": true
+  },
+  {
+    "id": "t023",
+    "subject": "Wrong part again",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "Customer explicitly requests a return and wants a credit, indicating a problem with a received item.",
+    "hard": false
+  },
+  {
+    "id": "t024",
+    "subject": "Refused delivery",
+    "true": "return",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "Customer is requesting a return of goods due to a delivery issue and wants a re-shipment.",
+    "hard": true
+  },
+  {
+    "id": "t025",
+    "subject": "Coating recommendation",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "The customer is seeking technical advice on coating selection, not placing an order or reporting a problem.",
+    "hard": false
+  },
+  {
+    "id": "t026",
+    "subject": "Status?",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "Customer is inquiring about the status of an existing order and needs assistance.",
+    "hard": true
+  },
+  {
+    "id": "t027",
+    "subject": "STEP file not found",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "The customer is reporting a technical issue with accessing CAD files and needs assistance.",
+    "hard": false
+  },
+  {
+    "id": "t028",
+    "subject": "Update billing address",
+    "true": "support",
+    "pred": "other",
+    "confidence": 0.9,
+    "reason": "This email requests account updates and documentation, not related to orders, quotes, returns, or support.",
+    "hard": false
+  },
+  {
+    "id": "t029",
+    "subject": "Datasheet",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "The customer is requesting technical information (datasheet) and specifications.",
+    "hard": false
+  },
+  {
+    "id": "t030",
+    "subject": "Coupling slipping",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "The customer is reporting a problem with a product and requesting technical advice.",
+    "hard": true
+  },
+  {
+    "id": "t031",
+    "subject": "Teknik soru",
+    "true": "support",
+    "pred": "support",
+    "confidence": 0.95,
+    "reason": "The email contains a technical question about material hardness and heat treatment.",
+    "hard": false
+  },
+  {
+    "id": "t032",
+    "subject": "Re: invoice 30410",
+    "true": "support",
+    "pred": "return",
+    "confidence": 0.95,
+    "reason": "Customer reports an invoice discrepancy and requests a refund/credit due to a price change.",
+    "hard": true
+  },
+  {
+    "id": "t033",
+    "subject": "Fwd: FW: Fwd: funny",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This email contains a forwarded humorous video and is clearly unrelated to our business.",
+    "hard": false
+  },
+  {
+    "id": "t034",
+    "subject": "Partnership opportunity",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.9,
+    "reason": "This is a marketing email promoting a service, not a customer request related to orders, quotes, returns, or support.",
+    "hard": false
+  },
+  {
+    "id": "t035",
+    "subject": "Invoice attached - URGENT",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.9,
+    "reason": "This is an invoice reminder, not a customer order, quote, return, or support request.",
+    "hard": true
+  },
+  {
+    "id": "t036",
+    "subject": "Congrats on the new facility",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This is a congratulatory message and invitation, not related to our products or services.",
+    "hard": false
+  },
+  {
+    "id": "t037",
+    "subject": "Delivery Status Notification (Delay)",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This is an automated notification and does not relate to a customer order, quote, return, or support request.",
+    "hard": false
+  },
+  {
+    "id": "t038",
+    "subject": "Unsubscribe",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This is an unsubscribe request, not related to orders, quotes, returns, or support.",
+    "hard": true
+  },
+  {
+    "id": "t039",
+    "subject": "Interview request",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This is a media inquiry, not a customer request for products or support.",
+    "hard": false
+  },
+  {
+    "id": "t040",
+    "subject": "Summer internship application",
+    "true": "other",
+    "pred": "other",
+    "confidence": 0.95,
+    "reason": "This is a job application and not related to our products or services.",
+    "hard": false
+  }
+]
