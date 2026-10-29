@@ -8,7 +8,7 @@ from load_data import load_emails
 
 DEFAULT_FILES = ["data/emails.jsonl", "data/emails_test.jsonl"]
 RESULTS_PATH = Path("eval/results_margin.json")
-THRESHOLDS = [3, 6, 9, 12, 15, 18, 21]
+THRESHOLDS = [3, 6, 9, 10, 12, 15, 18, 21]
 
 
 def run_all(emails):
@@ -78,8 +78,14 @@ if __name__ == "__main__":
 
     rows = run_all(emails)
 
-    RESULTS_PATH.parent.mkdir(exist_ok=True)
-    RESULTS_PATH.write_text(json.dumps(rows, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Sonuçlar kaydedildi: {RESULTS_PATH}")
+    if sys.argv[1:]:
+        names = "_".join(Path(f).stem for f in files)
+        results_path = Path(f"eval/results_margin_{names}.json")
+    else:
+        results_path = RESULTS_PATH
+
+    results_path.parent.mkdir(exist_ok=True)
+    results_path.write_text(json.dumps(rows, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"Sonuçlar kaydedildi: {results_path}")
 
     print_report(rows)

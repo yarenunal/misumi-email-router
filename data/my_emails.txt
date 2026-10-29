@@ -1,0 +1,15 @@
+LABEL: quote
+SUBJECT: fiyat öğrenmek istiyorum
+BODY: selam 12 mm mil 300 boy 40 adet ne kadar olur indirim yapabilir misiniz
+===
+LABEL: return
+SUBJECT: yanlis urun
+BODY: Gelen kutuda M8 yazıyor ama içinden M6 çıktı. geri iade talep ediyorumm
+===
+LABEL: support
+SUBJECT: 
+BODY: iade ücretimi ne zaman vreceksiniz
+===
+LABEL: support
+SUBJECT: soru
+BODY: ürünllerinizin garatisi var mi dayanıklılar mı

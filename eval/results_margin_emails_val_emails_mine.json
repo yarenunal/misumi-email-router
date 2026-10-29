@@ -1,0 +1,578 @@
+[
+  {
+    "id": "v001",
+    "subject": "PO 22-0817",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 20.092838287353516,
+    "rival": "other"
+  },
+  {
+    "id": "v002",
+    "subject": "Re: Re: your quote",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 13.610275030135426,
+    "rival": "other"
+  },
+  {
+    "id": "v003",
+    "subject": "rush",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 23.584918975830078,
+    "rival": "other"
+  },
+  {
+    "id": "v004",
+    "subject": "Sipariş onayı lütfen",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 19.081954956054688,
+    "rival": "other"
+  },
+  {
+    "id": "v005",
+    "subject": "Standing order change",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 15.387038946151705,
+    "rival": "other"
+  },
+  {
+    "id": "v006",
+    "subject": "New account + first order",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 20.834270477294922,
+    "rival": "other"
+  },
+  {
+    "id": "v007",
+    "subject": "Commande",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 19.984134674072266,
+    "rival": "other"
+  },
+  {
+    "id": "v008",
+    "subject": "Fwd: approved",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 13.856193542480014,
+    "rival": "other"
+  },
+  {
+    "id": "v009",
+    "subject": "as discussed on the phone",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.98,
+    "margin": 23.37908172607422,
+    "rival": "other"
+  },
+  {
+    "id": "v010",
+    "subject": "ORDER",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 22.104206085205078,
+    "rival": "other"
+  },
+  {
+    "id": "v011",
+    "subject": "Add to open order",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 16.774070739746094,
+    "rival": "other"
+  },
+  {
+    "id": "v012",
+    "subject": "Release 3 of blanket PO",
+    "true": "order",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 19.79918670654297,
+    "rival": "other"
+  },
+  {
+    "id": "v013",
+    "subject": "quote?",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 36.66281509399414,
+    "rival": null
+  },
+  {
+    "id": "v014",
+    "subject": "Need pricing for project",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 34.780540466308594,
+    "rival": null
+  },
+  {
+    "id": "v015",
+    "subject": "Teklif talebi",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 35.4179573059082,
+    "rival": null
+  },
+  {
+    "id": "v016",
+    "subject": "lead time",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 34.452354431152344,
+    "rival": "support"
+  },
+  {
+    "id": "v017",
+    "subject": "Re: Re: Q-21320",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 25.089298248291016,
+    "rival": "other"
+  },
+  {
+    "id": "v018",
+    "subject": "Alternative material",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 33.70133590698242,
+    "rival": "support"
+  },
+  {
+    "id": "v019",
+    "subject": "Volume break",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 34.23998260498047,
+    "rival": null
+  },
+  {
+    "id": "v020",
+    "subject": "RFQ 4471",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 36.984718322753906,
+    "rival": null
+  },
+  {
+    "id": "v021",
+    "subject": "pricing + sample",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 34.656490325927734,
+    "rival": "other"
+  },
+  {
+    "id": "v022",
+    "subject": "Angebot",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 33.4576530456543,
+    "rival": null
+  },
+  {
+    "id": "v023",
+    "subject": "ballpark",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 39.26307678222656,
+    "rival": null
+  },
+  {
+    "id": "v024",
+    "subject": "Re: your catalog",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 35.19922637939453,
+    "rival": "other"
+  },
+  {
+    "id": "v025",
+    "subject": "Wrong length",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.98,
+    "margin": 24.87737274169922,
+    "rival": "support"
+  },
+  {
+    "id": "v026",
+    "subject": "Return",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 1.0,
+    "margin": 26.436981201171875,
+    "rival": "support"
+  },
+  {
+    "id": "v027",
+    "subject": "RMA request",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.98,
+    "margin": 25.02239227294922,
+    "rival": "support"
+  },
+  {
+    "id": "v028",
+    "subject": "Geri iade",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 23.800373077392578,
+    "rival": "support"
+  },
+  {
+    "id": "v029",
+    "subject": "Re: shipment 30551",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 24.04302215576172,
+    "rival": "support"
+  },
+  {
+    "id": "v030",
+    "subject": "changed our mind",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 25.21457290649414,
+    "rival": "support"
+  },
+  {
+    "id": "v031",
+    "subject": "defective batch",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 25.524791717529297,
+    "rival": "support"
+  },
+  {
+    "id": "v032",
+    "subject": "Rückgabe",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 24.936599731445312,
+    "rival": "other"
+  },
+  {
+    "id": "v033",
+    "subject": "Warranty claim",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 22.119007110595703,
+    "rival": "support"
+  },
+  {
+    "id": "v034",
+    "subject": "this is not what I ordered",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 24.420059204101562,
+    "rival": "support"
+  },
+  {
+    "id": "v035",
+    "subject": "damaged on arrival",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 23.000953674316406,
+    "rival": "support"
+  },
+  {
+    "id": "v036",
+    "subject": "overshipment",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 22.250953674316406,
+    "rival": "support"
+  },
+  {
+    "id": "v037",
+    "subject": "refund status",
+    "true": "support",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 24.832569122314453,
+    "rival": "support"
+  },
+  {
+    "id": "v038",
+    "subject": "Which one do I need?",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 22.711151123046875,
+    "rival": "quote"
+  },
+  {
+    "id": "v039",
+    "subject": "can't find my invoice",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 25.418926239013672,
+    "rival": "other"
+  },
+  {
+    "id": "v040",
+    "subject": "PO status",
+    "true": "support",
+    "pred": "order",
+    "said_confidence": 0.95,
+    "margin": 11.294494628828943,
+    "rival": "support"
+  },
+  {
+    "id": "v041",
+    "subject": "Garanti",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 22.374465942382812,
+    "rival": "other"
+  },
+  {
+    "id": "v042",
+    "subject": "Re: Re: tracking",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 24.17349624633789,
+    "rival": "order"
+  },
+  {
+    "id": "v043",
+    "subject": "Drawing needed",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 16.37910830974579,
+    "rival": "other"
+  },
+  {
+    "id": "v044",
+    "subject": "Tax exempt",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 18.323104858398438,
+    "rival": "other"
+  },
+  {
+    "id": "v045",
+    "subject": "Max speed",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 27.01153564453125,
+    "rival": "other"
+  },
+  {
+    "id": "v046",
+    "subject": "Wrong invoice address",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 20.609115600585938,
+    "rival": "other"
+  },
+  {
+    "id": "v047",
+    "subject": "Website problem",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 13.551551461218878,
+    "rival": "other"
+  },
+  {
+    "id": "v048",
+    "subject": "Heat treatment",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 28.369895935058594,
+    "rival": "other"
+  },
+  {
+    "id": "v049",
+    "subject": "Re: Your inquiry",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 31.520858764648438,
+    "rival": "order"
+  },
+  {
+    "id": "v050",
+    "subject": "Out of Office",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 1.0,
+    "margin": 23.55939483642578,
+    "rival": "support"
+  },
+  {
+    "id": "v051",
+    "subject": "Payment received - confirm",
+    "true": "other",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 8.018551295332145,
+    "rival": "other"
+  },
+  {
+    "id": "v052",
+    "subject": "Join us at Automation Expo booth 412",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 28.79344940185547,
+    "rival": "order"
+  },
+  {
+    "id": "v053",
+    "subject": "Fwd: Fwd: Team lunch",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.9,
+    "margin": 26.326034545898438,
+    "rival": "order"
+  },
+  {
+    "id": "v054",
+    "subject": "Quote for our services",
+    "true": "other",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 30.106651306152344,
+    "rival": "other"
+  },
+  {
+    "id": "v055",
+    "subject": "Your invoice is overdue",
+    "true": "other",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 23.364349365234375,
+    "rival": "other"
+  },
+  {
+    "id": "v056",
+    "subject": "Application - purchasing team",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 26.781455993652344,
+    "rival": "order"
+  },
+  {
+    "id": "v057",
+    "subject": "Newsletter: October updates",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 32.352294921875,
+    "rival": "order"
+  },
+  {
+    "id": "v058",
+    "subject": "Mail delivery failed",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 13.294090509413309,
+    "rival": "support"
+  },
+  {
+    "id": "v059",
+    "subject": "wrong number",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.9,
+    "margin": 24.92645263671875,
+    "rival": "support"
+  },
+  {
+    "id": "v060",
+    "subject": "Rate your experience",
+    "true": "other",
+    "pred": "other",
+    "said_confidence": 0.95,
+    "margin": 26.69440460205078,
+    "rival": "support"
+  },
+  {
+    "id": "m001",
+    "subject": "fiyat öğrenmek istiyorum",
+    "true": "quote",
+    "pred": "quote",
+    "said_confidence": 0.95,
+    "margin": 33.69627380371094,
+    "rival": null
+  },
+  {
+    "id": "m002",
+    "subject": "yanlis urun",
+    "true": "return",
+    "pred": "return",
+    "said_confidence": 0.95,
+    "margin": 22.145137786865234,
+    "rival": "support"
+  },
+  {
+    "id": "m003",
+    "subject": "",
+    "true": "support",
+    "pred": "support",
+    "said_confidence": 0.95,
+    "margin": 10.25161778859183,
+    "rival": "other"
+  },
+  {
+    "id": "m004",
+    "subject": "soru",
+    "true": "order",
+    "pred": "support",
+    "said_confidence": 0.9,
+    "margin": 17.754924774169922,
+    "rival": "other"
+  }
+]
